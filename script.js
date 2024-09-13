@@ -26,7 +26,7 @@ const clicker = () => {
     colorContainer.innerHTML = "";
 
     // Array of names or any other text you want to use
-    let names = ['A', 'Y', 'E', 'S', 'H', 'A']; 
+    let names = ['A', 'H', 'E', 'S', 'H', 'A']; 
     
     // Generate an equal number of colors for background and text
     let backgroundPalette = colorGenerator();
