@@ -1,0 +1,79 @@
+/* Existing styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 10px 20px;
+    background: rgb(81, 204, 167);
+    color: rgb(42, 54, 54);
+    text-align: center;
+    height: fit-content;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+}
+
+.text-container {
+    margin-right: 10px;
+}
+
+.text {
+    cursor: pointer;
+    color: #007BFF;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background: #000;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow {
+    font-size: 20px;
+    margin-right: 10px;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+button.animate .arrow {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+.colors-section {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping of names */
+    gap: 1rem;
+}
+
+.colors-section span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 7rem; /* Adjust height as needed */
+    font-size: 4.5rem; /* Adjust text size */
+    font-weight: bold; /* Make text stand out */
+    border-radius: 5px; /* Optional: rounded corners for better aesthetics */
+    color: white; /* Default text color for visibility */
+    padding: 0 1rem; /* Add padding for better appearance */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: Add a shadow for better look */
+}
